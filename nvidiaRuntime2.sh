@@ -22,6 +22,7 @@ nvidia_docker_toolkit() {
   sudo bash -c 'cat > /etc/docker/daemon.json << EOF
 {
     "default-runtime": "nvidia",
+    "exec-opts": ["native.cgroupdriver=cgroupfs"], 
     "runtimes": {
         "nvidia": {
             "path": "nvidia-container-runtime",

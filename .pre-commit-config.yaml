@@ -10,6 +10,10 @@
 #     PRE_COMMIT_HOME=$TMPDIR/pre-commit-cache pre-commit run strip-legacy-license-header --all-files
 #     PRE_COMMIT_HOME=$TMPDIR/pre-commit-cache pre-commit run verify-copyright --all-files
 
+exclude: |
+  (?x)
+    ^templates/jupyterConfig/
+
 repos:
 
 # Remove any leftover legacy HEAVY.AI/OmniSci/MapD header BEFORE verify-copyright

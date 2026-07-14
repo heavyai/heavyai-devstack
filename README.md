@@ -1,4 +1,9 @@
 # heavyai-devstack
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/heavyai/heavyai-devstack/blob/devstack2/LICENSE.txt)
+[![Security](https://img.shields.io/badge/Security-Report%20a%20Vulnerability-red.svg)](https://github.com/heavyai/heavyai-devstack/blob/devstack2/SECURITY.md)
+[![GitHub Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?logo=github)](https://github.com/orgs/heavyai/discussions)
+
+
 
 ### Introducing heavyai-devstack 2.0.  The Next Generation !
 
@@ -33,3 +38,16 @@ To monitor the process of startup, you can use the command:
 If you want to stop a service or all of the services you should use:
 
 `docker compose stop`
+
+
+## Security
+> [!WARNING]
+> **Do not report security vulnerabilities through public GitHub issues!**
+
+NVIDIA takes security seriously. If you discover a vulnerability in heavyai-devstack, **DO NOT open a public issue**. Use one of the private reporting channels described in [SECURITY.md](https://github.com/heavyai/heavyai-devstack/blob/devstack2/SECURITY.md).
+
+## Support
+Join the [HeavyAI GitHub Discussions](https://github.com/orgs/heavyai/discussions) to ask questions, share feedback, and report issues. HeavyAI maintainers review issues, discussions, and pull requests on a best effort basis without guaranteed response timelines.
+  
+## License
+Apache 2.0. See [LICENSE](https://github.com/heavyai/heavyai-devstack/blob/devstack2/LICENSE.txt).
